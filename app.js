@@ -26,6 +26,7 @@ buttonElement.addEventListener("click", function () {
     event.preventDefault();
     let km = kmInputElement.value;
     valueControl(km);
+    kmInputElement.value = "" ;
 })
 
 const valueControl = (km) => {
