@@ -1,0 +1,55 @@
+body {
+    background-color: #a8325e;
+}
+
+h1 {
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+label {
+    font-size: 2rem;
+    color: white;
+}
+
+input {
+    font-size: 2rem;
+    outline: none;
+}
+
+button {
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 25%;
+    margin-top: 2rem;
+    outline: none;
+}
+
+#result {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.error-message {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    margin: 10px 0px;
+    padding: 12px;
+}
+
+.success-message {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    margin: 10px 0px;
+    padding: 12px;
+}
